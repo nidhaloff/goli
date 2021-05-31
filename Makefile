@@ -102,7 +102,7 @@ endif
 check-safety:
 	$(POETRY_COMMAND_FLAG)poetry check
 	$(PIP_COMMAND_FLAG)poetry run pip check
-	$(SAFETY_COMMAND_FLAG)poetry run safety check --full-report
+	$(SAFETY_COMMAND_FLAG)poetry run safety check
 	$(BANDIT_COMMAND_FLAG)poetry run bandit -ll -r goli/
 
 .PHONY: check-style
