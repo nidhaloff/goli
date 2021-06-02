@@ -106,7 +106,7 @@ endif
 #	$(BANDIT_COMMAND_FLAG)poetry run bandit -ll -r goli/
 
 .PHONY: check-style
-check-style:ignored)
+check-style:
 	$(BLACK_COMMAND_FLAG)poetry run black --config pyproject.toml --diff --check ./
 	$(DARGLINT_COMMAND_FLAG)poetry run darglint -v 2 **/*.py
 	$(ISORT_COMMAND_FLAG)poetry run isort --settings-path pyproject.toml --check-only **/*.py
