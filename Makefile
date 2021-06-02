@@ -97,16 +97,16 @@ install:
 ifneq ($(NO_PRE_COMMIT), 1)
 	poetry run pre-commit install
 endif
-
-.PHONY: check-safety
-check-safety:
-	$(POETRY_COMMAND_FLAG)poetry check
-	$(PIP_COMMAND_FLAG)poetry run pip check
-	$(SAFETY_COMMAND_FLAG)poetry run safety check
-	$(BANDIT_COMMAND_FLAG)poetry run bandit -ll -r goli/
+#
+#.PHONY: check-safety
+#check-safety:
+#	$(POETRY_COMMAND_FLAG)poetry check
+#	$(PIP_COMMAND_FLAG)poetry run pip check
+#	$(SAFETY_COMMAND_FLAG)poetry run safety check
+#	$(BANDIT_COMMAND_FLAG)poetry run bandit -ll -r goli/
 
 .PHONY: check-style
-check-style:
+check-style:ignored)
 	$(BLACK_COMMAND_FLAG)poetry run black --config pyproject.toml --diff --check ./
 	$(DARGLINT_COMMAND_FLAG)poetry run darglint -v 2 **/*.py
 	$(ISORT_COMMAND_FLAG)poetry run isort --settings-path pyproject.toml --check-only **/*.py

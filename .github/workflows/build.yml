@@ -30,10 +30,10 @@ jobs:
         poetry config virtualenvs.in-project true
         poetry install
 
-    - name: Run safety checks
-      run: |
-        source "$HOME/.poetry/env"
-        STRICT=1 make check-safety
+#    - name: Run safety checks
+#      run: |
+#        source "$HOME/.poetry/env"
+#        STRICT=1 make check-safety
 
     - name: Run style checks
       run: |
