@@ -10,7 +10,7 @@ version = "0.1.0"
 description = "The last boilerplate generator you will need (seriously)"
 readme = "README.md"
 authors = [
-  "goli <nidhalbacc@gmail.com>"
+  "nidhaloff <nidhalbacc@gmail.com>"
 ]
 license = "MIT"
 repository = "https://github.com/nidhaloff/goli"
