@@ -16,6 +16,8 @@ A sophisticated boilerplate generator based on best practices modern templates
 
 </div>
 
+> **_NOTE:_**  The project is heavily inspired by cookiecutter and aim to make a good collection of best boilerplate templates that proven useful in the last years.
+
 
 ## Installation
 
