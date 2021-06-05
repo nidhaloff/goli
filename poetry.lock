@@ -524,7 +524,7 @@ unidecode = ["Unidecode (>=1.1.1)"]
 
 [[package]]
 name = "pyupgrade"
-version = "2.19.0"
+version = "2.19.1"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -712,7 +712,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "e9b349bf60e024e91d3476158ec77fd427072e249b59b7204926fb034ad33ecf"
+content-hash = "937e3db23b9add2ced161c023c464025c9755717b58ba02133e997f9afe394d8"
 
 [metadata.files]
 appdirs = [
@@ -963,8 +963,8 @@ python-slugify = [
     {file = "python_slugify-5.0.2-py2.py3-none-any.whl", hash = "sha256:6d8c5df75cd4a7c3a2d21e257633de53f52ab0265cd2d1dc62a730e8194a7380"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.19.0-py2.py3-none-any.whl", hash = "sha256:a73c1ac1311070ac2be0b94624849462cd0987590a406e646b1dc90272070b1a"},
-    {file = "pyupgrade-2.19.0.tar.gz", hash = "sha256:94f6c2dded39a88ac215261608fa180e21dd38a5351247d7ed40ec10d53a6ca3"},
+    {file = "pyupgrade-2.19.1-py2.py3-none-any.whl", hash = "sha256:d84807695d819e364238078169d50e6fcdf4609a9956fc68b433c9958e4ef5bb"},
+    {file = "pyupgrade-2.19.1.tar.gz", hash = "sha256:2b21f55472a862393ea5de0e2e5b560c0554ed0379d92d5fc68ed0e8a772a728"},
 ]
 pyyaml = [
     {file = "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922"},
