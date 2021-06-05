@@ -64,7 +64,7 @@ or the short version
 goli new -l python -t data-science
 ```
 
-> **_NOTE:_** both versions are equivalent
+This will pull the modern cookiecutter-data-science template (https://github.com/drivendata/cookiecutter-data-science) and execute it in your current working directory. So you don't have to search for templates since best practices are already built-in and being updated regularly. 
 
 
 
