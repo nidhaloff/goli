@@ -7,6 +7,7 @@ languages: List[str] = [
     "golang",
     "php",
     "swift",
+    "kotlin",
 ]
 
 topics: List[str] = [

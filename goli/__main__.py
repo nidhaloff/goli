@@ -1,7 +1,7 @@
 import click
+from cookiecutter.main import cookiecutter
 from goli import constants
-from goli.data import data
-from goli.example import hello
+from goli.cookiecutters import CookieCutterTemplates
 
 
 @click.group()
@@ -13,7 +13,6 @@ def cli():
 @click.option(
     "--language",
     "-l",
-    prompt=True,
     default="python",
     type=click.Choice(constants.languages),
     help="programming language to use",
@@ -29,13 +28,11 @@ def new(language: str, topic: str) -> None:
     """
     Generate new boilerplate code for your project
     """
-    greeting: str = hello(language)
-    click.echo(greeting)
 
-    if topic:
-        click.echo(f"you chosed the topic: {topic}")
-    else:
-        click.echo("you did not choose any topic!!")
+    template = CookieCutterTemplates.get_template(language, topic)
+    click.secho(f"Template: {template} will be used.", fg="green")
+    cookiecutter(template)
+    click.echo("Done.")
 
 
 @cli.command()

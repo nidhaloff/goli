@@ -1,4 +1,4 @@
-class CookieCuttersTemplates:
+class CookieCutterTemplates:
     MACHINE_LEARNING = "https://github.com/jeannefukumaru/cookiecutter-ml"
     DATA_SCIENCE = "https://github.com/drivendata/cookiecutter-data-science"
     DJANGO = "https://github.com/pydanny/cookiecutter-django"
@@ -16,6 +16,7 @@ class CookieCuttersTemplates:
         "https://github.com/docker-science/cookiecutter-docker-science"
     )
     PY_CLI = "https://github.com/nvie/cookiecutter-python-cli"
+
     # golang:
     GOLANG = "https://github.com/lacion/cookiecutter-golang"
 
@@ -30,3 +31,27 @@ class CookieCuttersTemplates:
     SWIFT_IOS = "https://github.com/pmlbrito/cookiecutter-ios-template"
 
     PHP = "https://github.com/jeromegamez/cookiecutter-php"
+
+    repos: object = {
+        "python": {
+            "package": MODERN_PY_PACKAGE,
+            "data-science": DATA_SCIENCE,
+            "machine-learning": MACHINE_LEARNING,
+            "flask": FLASK,
+            "django": DJANGO,
+            "fastapi": FASTAPI,
+        },
+        "kotlin": {"android": KOTLIN_ANDROID},
+        "golang": {"package": GOLANG},
+        "cpp": {"package": CPP},
+        "java": {"package": JAVA},
+        "swift": {
+            "package": SWIFT,
+            "ios": SWIFT_IOS,
+        },
+        "php": {"package": PHP},
+    }
+
+    @classmethod
+    def get_template(cls, lang: str, topic: str) -> str:
+        return cls.repos[lang][topic]
