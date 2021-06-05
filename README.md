@@ -31,10 +31,9 @@ or install with `Poetry`
 poetry add goli
 ```
 
-Then you can run `goli --help `
+Then you can run `goli --help ` to show the help message on how to use the package
 
 ```bash
-goli --help
 
 Usage: goli [OPTIONS] COMMAND [ARGS]...
 
@@ -46,19 +45,18 @@ Commands:
   new        Generate new boilerplate code for your project
   topics     Show all supported topics.
 ```
+As you can see, goli provides three commands. The languages and topics commands are additional to get more information about how to use the package. The new command is the most important and it is used to start a new project. More on that in the next section.
+
+## Usage
+
+goli provides the new command, which is used to create a new boilerplate depending on two optional parameters that you need to provide. 
+
+- The `language` parameter, which indicates the programming language you want to use or you will use for your project. You can check supported languages if you run `goli languages`
+
+- The `topic` parameter, which should indicate the topic of your project. You can check the topics supported by goli if you run `goli topics`
 
 ```bash
-goli 
-```
-
-or if installed with `Poetry`:
-
-```bash
-poetry run goli --help
-```
-
-```bash
-poetry run goli --name Roman
+goli new --help
 ```
 
 ## 📈 Releases
