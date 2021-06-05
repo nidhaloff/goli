@@ -16,7 +16,7 @@ A sophisticated boilerplate generator based on best practices modern templates
 
 </div>
 
-> **_NOTE:_**  The project is heavily inspired by cookiecutter and aim to make a good collection of best boilerplate templates that proven useful in the last years.
+> **_NOTE:_**  The project is heavily inspired by cookiecutter and aim to make a good collection of modern boilerplate templates that proven useful in the last years.
 
 
 ## Installation
@@ -34,11 +34,21 @@ poetry add goli
 Then you can run
 
 ```bash
-goli --help
+$ goli --help
+
+Usage: goli [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  languages  Show all supported programming languages
+  new        Generate new boilerplate code for your project
+  topics     Show all supported topics.
 ```
 
 ```bash
-goli --name Roman
+goli 
 ```
 
 or if installed with `Poetry`:
