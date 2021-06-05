@@ -56,8 +56,17 @@ goli provides the new command, which is used to create a new boilerplate dependi
 - The `topic` parameter, which should indicate the topic of your project. You can check the topics supported by goli if you run `goli topics`
 
 ```bash
-goli new --help
+goli new --language python --topic data-science
 ```
+or the short version
+
+```bash
+goli new -l python -t data-science
+```
+
+> **_NOTE:_** both versions are equivalent
+
+
 
 ## 📈 Releases
 
