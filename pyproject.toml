@@ -7,7 +7,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry]
 name = "goli"
 version = "0.1.0"
-description = "The last boilerplate generator you will need (seriously)"
+description = "A sophisticated boilerplate generator based on best practices modern templates"
 readme = "README.md"
 authors = [
   "nidhaloff <nidhalbacc@gmail.com>"
@@ -17,7 +17,7 @@ repository = "https://github.com/nidhaloff/goli"
 homepage = "https://github.com/nidhaloff/goli"
 
 # Keywords description https://python-poetry.org/docs/pyproject/#keywords
-keywords = []  # Update me
+keywords = ["goli", "boilerplate", "boilerplate-generator", "code-generator", "cookiecutter"]
 
 # Pypi classifiers: https://pypi.org/classifiers/
 classifiers = [  # Update me
@@ -47,6 +47,7 @@ pytest = "^6.2.1"
 pylint = "^2.6.0"
 pydocstyle = "^6.1.1"
 pre-commit = "^2.9.3"
+Sphinx = "^4.0.2"
 
 [tool.black]
 # https://github.com/psf/black
