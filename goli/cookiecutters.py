@@ -23,20 +23,24 @@ class CookieCutterTemplates:
         "https://github.com/docker-science/cookiecutter-docker-science"
     )
     PY_CLI: str = "https://github.com/nvie/cookiecutter-python-cli"
-
-    # golang:
-    GOLANG: str = "https://github.com/lacion/cookiecutter-golang"
-
     FULL_STACK_FASTAPI_POSTGRES: str = (
         "https://github.com/tiangolo/full-stack-fastapi-postgresql"
     )
 
+    # golang:
+    GOLANG: str = "https://github.com/lacion/cookiecutter-golang"
+
+    # c++
     CPP: str = "https://github.com/hbristow/cookiecutter-cpp"
+
+    # java
     JAVA: str = "https://github.com/thomaslee/cookiecutter-java"
 
+    # swift
     SWIFT: str = "https://github.com/theodesp/cookiecutter-swift-library"
     SWIFT_IOS: str = "https://github.com/pmlbrito/cookiecutter-ios-template"
 
+    # php
     PHP: str = "https://github.com/jeromegamez/cookiecutter-php"
 
     repos: Mapping[str, Mapping[str, str]] = {

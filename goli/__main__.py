@@ -1,6 +1,6 @@
 import click
 from cookiecutter.main import cookiecutter
-from goli import constants
+from goli import options
 from goli.cookiecutters import CookieCutterTemplates
 
 
@@ -14,14 +14,14 @@ def cli():
     "--language",
     "-l",
     default="python",
-    type=click.Choice(constants.languages),
+    type=click.Choice(options.languages),
     help="programming language to use",
 )
 @click.option(
     "--topic",
     "-t",
     default="package",
-    type=click.Choice(constants.topics),
+    type=click.Choice(options.topics),
     help="topic of the template you want to create (e.g data-science)",
 )
 def new(language: str, topic: str) -> None:
@@ -40,7 +40,7 @@ def languages() -> None:
     """
     Show all supported programming languages
     """
-    for lang in constants.languages:
+    for lang in options.languages:
         click.secho(lang, fg="yellow", blink=True, bold=True)
 
 
@@ -50,5 +50,5 @@ def topics() -> None:
     Show all supported topics.
     This includes specific libs or frameworks that you may want to use
     """
-    for topic in constants.topics:
+    for topic in options.topics:
         click.secho(topic, fg="yellow", blink=True, bold=True)
