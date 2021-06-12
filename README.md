@@ -13,7 +13,7 @@
 
 [![License](https://img.shields.io/github/license/nidhaloff/goli)](https://github.com/nidhaloff/goli/blob/master/LICENSE)
 
-A sophisticated boilerplate generator based on best practices modern templates
+A sophisticated boilerplate generator based on best practices and modern useful templates
 
 </div>
 
@@ -55,6 +55,8 @@ goli provides the new command, which is used to create a new boilerplate dependi
 - The `language` parameter, which indicates the programming language you want to use or you will use for your project. You can check supported languages if you run `goli languages`
 
 - The `topic` parameter, which should indicate the topic of your project. You can check the topics supported by goli if you run `goli topics`
+
+For example, here is what my command will look like if I'm starting a data science project using python
 
 ```bash
 goli new --language python --topic data-science
