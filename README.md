@@ -74,3 +74,9 @@ goli new -l python -t data-science
 ```
 
 This will pull the modern cookiecutter-data-science template (https://github.com/drivendata/cookiecutter-data-science) and execute it in your current working directory. So you don't have to search for templates since best practices are already built-in and being updated regularly. 
+ 
+## FAQ
+
+### I want to add a useful template that I didn't find in goli
+
+If you want to contribute and add templates, just go to `goli/cookiecutters.py`
