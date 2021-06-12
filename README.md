@@ -24,7 +24,7 @@ I like the cookiecutter package and I have been using it for years now. However,
 
 Hence, I wanted to create this simple tool, where I integrated all useful templates that have proven useful in the last years and which follow best practices in the field.
 
-Please note that goli does not work only for python. It can be used with other languages too and I'm planning to add other features in the future.
+Please note that goli is not only for python. It can be used with other languages too and I'm planning to add other features in the future.
 
 ## Installation
 
