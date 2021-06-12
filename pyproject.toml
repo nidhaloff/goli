@@ -6,8 +6,8 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "goli"
-version = "0.1.0"
-description = "A sophisticated boilerplate generator based on best practices modern templates"
+version = "0.1.1"
+description = "A sophisticated boilerplate generator based on best practices and modern useful templates"
 readme = "README.md"
 authors = [
   "nidhaloff <nidhalbacc@gmail.com>"
@@ -21,7 +21,7 @@ keywords = ["goli", "boilerplate", "boilerplate-generator", "code-generator", "c
 
 # Pypi classifiers: https://pypi.org/classifiers/
 classifiers = [  # Update me
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "Topic :: Software Development :: Libraries :: Python Modules",
