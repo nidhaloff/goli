@@ -79,4 +79,4 @@ This will pull the modern cookiecutter-data-science template (https://github.com
 
 ### I want to add a useful template that I didn't find in goli
 
-If you want to contribute and add templates, just go to `goli/cookiecutters.py`
+If you want to contribute and add templates, just go to `goli/cookiecutters.py`, add your template as a class member variable and finally add it in the repos dictionary under the corresponding language and topic.
