@@ -100,7 +100,7 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "black"
-version = "21.5b2"
+version = "21.6b0"
 description = "The uncompromising code formatter."
 category = "dev"
 optional = false
@@ -245,11 +245,11 @@ smmap = ">=3.0.1,<5"
 
 [[package]]
 name = "gitpython"
-version = "3.1.17"
+version = "3.1.18"
 description = "Python Git Library"
 category = "dev"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
 gitdb = ">=4.0.1,<5"
@@ -284,7 +284,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "importlib-metadata"
-version = "4.4.0"
+version = "4.5.0"
 description = "Read metadata from Python packages"
 category = "main"
 optional = false
@@ -579,7 +579,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyupgrade"
-version = "2.19.3"
+version = "2.19.4"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -869,7 +869,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pyt
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "10fe343ac0a33c4eb4422b0c01802fbf90b1f34b3def85d315e6b1c292094f5c"
+content-hash = "68dcbe79ff83df1642182d2c5cea2d2ae61d438115a9e734693ffb7c95e2a836"
 
 [metadata.files]
 alabaster = [
@@ -909,8 +909,8 @@ binaryornot = [
     {file = "binaryornot-0.4.4.tar.gz", hash = "sha256:359501dfc9d40632edc9fac890e19542db1a287bbcfa58175b66658392018061"},
 ]
 black = [
-    {file = "black-21.5b2-py3-none-any.whl", hash = "sha256:e5cf21ebdffc7a9b29d73912b6a6a9a4df4ce70220d523c21647da2eae0751ef"},
-    {file = "black-21.5b2.tar.gz", hash = "sha256:1fc0e0a2c8ae7d269dfcf0c60a89afa299664f3e811395d40b1922dff8f854b5"},
+    {file = "black-21.6b0-py3-none-any.whl", hash = "sha256:dfb8c5a069012b2ab1e972e7b908f5fb42b6bbabcba0a788b86dc05067c7d9c7"},
+    {file = "black-21.6b0.tar.gz", hash = "sha256:dc132348a88d103016726fe360cb9ede02cecf99b76e3660ce6c596be132ce04"},
 ]
 certifi = [
     {file = "certifi-2021.5.30-py2.py3-none-any.whl", hash = "sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8"},
@@ -961,8 +961,8 @@ gitdb = [
     {file = "gitdb-4.0.7.tar.gz", hash = "sha256:96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005"},
 ]
 gitpython = [
-    {file = "GitPython-3.1.17-py3-none-any.whl", hash = "sha256:29fe82050709760081f588dd50ce83504feddbebdc4da6956d02351552b1c135"},
-    {file = "GitPython-3.1.17.tar.gz", hash = "sha256:ee24bdc93dce357630764db659edaf6b8d664d4ff5447ccfeedd2dc5c253f41e"},
+    {file = "GitPython-3.1.18-py3-none-any.whl", hash = "sha256:fce760879cd2aebd2991b3542876dc5c4a909b30c9d69dfc488e504a8db37ee8"},
+    {file = "GitPython-3.1.18.tar.gz", hash = "sha256:b838a895977b45ab6f0cc926a9045c8d1c44e2b653c1fcc39fe91f42c6e8f05b"},
 ]
 identify = [
     {file = "identify-2.2.10-py2.py3-none-any.whl", hash = "sha256:18d0c531ee3dbc112fa6181f34faa179de3f57ea57ae2899754f16a7e0ff6421"},
@@ -977,8 +977,8 @@ imagesize = [
     {file = "imagesize-1.2.0.tar.gz", hash = "sha256:b1f6b5a4eab1f73479a50fb79fcf729514a900c341d8503d62a62dbc4127a2b1"},
 ]
 importlib-metadata = [
-    {file = "importlib_metadata-4.4.0-py3-none-any.whl", hash = "sha256:960d52ba7c21377c990412aca380bf3642d734c2eaab78a2c39319f67c6a5786"},
-    {file = "importlib_metadata-4.4.0.tar.gz", hash = "sha256:e592faad8de1bda9fe920cf41e15261e7131bcf266c30306eec00e8e225c1dd5"},
+    {file = "importlib_metadata-4.5.0-py3-none-any.whl", hash = "sha256:833b26fb89d5de469b24a390e9df088d4e52e4ba33b01dc5e0e4f41b81a16c00"},
+    {file = "importlib_metadata-4.5.0.tar.gz", hash = "sha256:b142cc1dd1342f31ff04bb7d022492b09920cb64fed867cd3ea6f80fe3ebd139"},
 ]
 iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
@@ -1154,8 +1154,8 @@ pytz = [
     {file = "pytz-2021.1.tar.gz", hash = "sha256:83a4a90894bf38e243cf052c8b58f381bfe9a7a483f6a9cab140bc7f702ac4da"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.19.3-py2.py3-none-any.whl", hash = "sha256:840b06cc7cae184736e2b2286838276e150f1edee0a998d2ec1d2b2b8dcca883"},
-    {file = "pyupgrade-2.19.3.tar.gz", hash = "sha256:cf4deae32838060d709c34af5e9b76ce0a007cb0f4ef0e690750c043c1033433"},
+    {file = "pyupgrade-2.19.4-py2.py3-none-any.whl", hash = "sha256:7bfb634a804d71a642dfb6e85283295953c0f990b8be55c0909c6155d88c5af6"},
+    {file = "pyupgrade-2.19.4.tar.gz", hash = "sha256:28525a24fa3f4f68389b157d3fa063c9b96d8e30f034614c17a4d95a0475d1d9"},
 ]
 pyyaml = [
     {file = "PyYAML-5.4.1-cp27-cp27m-macosx_10_9_x86_64.whl", hash = "sha256:3b2b1824fe7112845700f815ff6a489360226a5609b96ec2190a45e62a9fc922"},
