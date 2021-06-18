@@ -49,7 +49,7 @@ Options:
 
 Commands:
   languages  Show all supported programming languages
-  new        Generate new boilerplate code for your project
+  new        Generate new boilerplate code \for your project
   topics     Show all supported topics.
 ```
 As you can see, goli provides three commands. The languages and topics commands are additional to get more information about how to use the package. The new command is the most important and it is used to start a new project. More on that in the next section.
