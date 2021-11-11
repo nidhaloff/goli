@@ -47,7 +47,7 @@ pytest = "^6.2.1"
 pylint = "^2.9.3"
 pydocstyle = "^6.1.1"
 pre-commit = "^2.9.3"
-Sphinx = "^4.1.0"
+Sphinx = "^4.3.0"
 
 [tool.black]
 # https://github.com/psf/black
