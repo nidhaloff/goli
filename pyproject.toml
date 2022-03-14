@@ -38,7 +38,7 @@ cookiecutter = ">=1.7.3,<3.0.0"
 [tool.poetry.dev-dependencies]
 darglint = "^1.5.8"
 isort = "^5.9.2"
-pyupgrade = "^2.21.0"
+pyupgrade = "^2.31.1"
 black = "^21.5b2"
 mypy = "^0.910"
 bandit = "^1.7.0"
